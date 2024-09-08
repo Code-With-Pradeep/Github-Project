@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+body{
+ font-family: "Inter", system-ui;
+}
+:root{
+    --primary:#003FDB;
+    --secondary:#A3DC2F;
+    --black:#000;
+    --white:#fff;
+    --grey-bg:#F8F8F8;
+}
+.hero-section{
+    background-color: var(--primary);
+    padding-bottom: 200px;
+}
+.custom-container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.logo{
+    gap: 10px;
+    font-weight: 500;
+    font-size: 28px;
+    color: var(--white);
+}
+.hero-section nav{
+    padding: 30px;
+}
+.hero-section ul{
+    gap: 40px;
+    padding: 0px;
+    margin: 0;
+}
+.hero-section ul li{
+    list-style: none;
+    font-size: 16px;
+    color: var(--white);
+    font-weight: 300;
+}
+.sign-up {
+    background-color: var(--secondary);
+    padding: 10px 30px;
+    color: var(--black);
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+.hero-content{
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.title{
+    font-size: 72px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+.tagline{
+    font-size: 15px;
+    color: var(--white);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.book-demo{
+    background: #fff;
+    padding: 5px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.book-demo button {
+    background-color: var(--secondary);
+    padding: 12px 20px;
+    font-size: 14px;
+    color: var(--black);
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+.book-demo  input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-left: 13px;
+    width: 320px;
+}
+
+/* Dashboard */
+
+.dashboard {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: -240px;
+}
