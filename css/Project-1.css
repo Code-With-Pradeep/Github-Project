@@ -20,6 +20,32 @@ body{
     --white:#fff;
     --grey-bg:#F8F8F8;
 }
+h3.heading {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+button{
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: var(--black);
+}
+.white-text{
+    color: var(--white);
+}
+
+/* Hero Section */
 .hero-section{
     background-color: var(--primary);
     padding-bottom: 200px;
@@ -104,4 +130,93 @@ body{
     padding: 20px;
     margin: 0 auto;
     margin-top: -240px;
+    padding-bottom: 80px;
+}
+
+/* Partners */
+
+.parters-slider {
+    display: flex;
+    padding: 50px 20px;
+    background-color: #000;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 50px;
+}
+.parters-slider img {
+    max-width: 180px;
+    height: 100%;
+}
+
+/* boost-business */
+
+.boost-business{
+    background-color: #f8f8f8;
+    padding: 100px 0px ;
+}
+h2.heading{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.optimise {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.optimise-image {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-right: 60px;
+}
+.left img{
+    margin-bottom: 10px;
+}
+.readmore a {
+    display: inline-block;
+    background-color: var(--secondary);
+    padding: 12px 25px;
+    color: var(--black);
+    font-weight: 600;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.optimise-content {
+    padding-left: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.realtime .optimise-image {
+    align-items: unset;
+}
+.realtime .optimise-image .right img {
+    margin-bottom: 10px;
+}
+.realtime .optimise-image .left {
+    padding-top: 50px;
+}
+
+
+/* Modern Companies*/
+
+.modern-companies{
+    background-color: var(--black);
+    padding: 60px 0px;
+}
+.founder-detail {
+    padding: 20px;
+}
+.company-founder {
+    padding-top: 4rem;
+}
+h4.name {
+    font-size: 24px;
+    font-weight: 300;
+}
+.destination {
+    color: #65676C;
+    font-size: 16px;
 }
