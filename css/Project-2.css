@@ -1,0 +1,114 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+:root{
+    --primary:#2B59FF;
+    --secondary:#12141D;
+    --white-bg-text:#FAFAFA;
+    --white:#fff;
+    --grey:#BAB7B7;
+    --text-color:#4B4B4B;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ----------------  Hero section  ----------------*/
+
+.hero{
+    background-image:linear-gradient(to bottom ,var(--secondary) 70%,transparent 70%) ;
+}
+
+/* Header */
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+header ul {
+    display: flex;
+    gap: 30px;
+}
+header li a {
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+}
+header li a.active,header li a:hover{
+    border-bottom: 2px solid var(--primary);
+    transform-origin: left;
+    transition: all 1s;
+    color: var(--primary);
+}
+.cta a {
+    background: var(--primary);
+    color: var(--white);
+    padding: 13px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+/* Hero-content */
+
+.hero-content-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.hero-content h1{
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 600;
+    color: var(--white);
+    padding-bottom: 15px;
+}
+.blue-text{
+    color: var(--primary);
+}
+.blue-underline{
+    position: relative;
+    border-bottom: 4px solid var(--primary);
+}
+.hero-content p{
+    font-size: 18px;
+    line-height: 160%;
+    color: #bcbcbc;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+
+/* Dashboard */
+
+.dasboard-img img {
+    margin-top: 80px;
+    box-shadow: 0px 31px 125px #00000010;
+}
+
